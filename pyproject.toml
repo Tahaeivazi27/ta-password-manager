@@ -1,0 +1,13 @@
+[project]
+name = "ta-password-manager"
+version = "0.1.0"
+description = "Offline password manager built with Python and PySide6."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.15.20",
+]
